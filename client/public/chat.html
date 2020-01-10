@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat Application</title>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-center">
+
+    <div class="container chat-container">
+
+            <div class="d-flex flex-row align-items-stretch justify-content-center bg-secondary">
+                <div class="d-flex flex-column chats-container pre-scrollable" style="min-height: 600px; max-height: 1000px; width: 30%;">
+                    <div class="d-flex flex-column add-friend-container">
+                        <form action="" class="post form-add-friend flex-fill">
+                            <div class="input-group input-group-lg"> 
+                                <input type="text" placeholder="Buscar amigo" class="form-control" id="inptAddFriend">
+                                <button type="submit" class="btn btn-primary">Add</button>
+                            </div>
+                            </form>
+                        </form>
+                    </div>
+                    <div class="d-flex flex-column">
+                            <div class="card-body bg-primary user-chat-selected">
+                                <p class="font-weight-bold">José Alberto</p>
+                            </div>
+                            <div class="card-body bg-dark user-chat">
+                                    <p class="font-weight-bold">Juanito</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column direct-chat-container" style="min-height: 600px; max-height: 1000px; width: 70%;">
+                    <div class="d-flex title-chat-container">
+                        <div class="d-flex flex-fill justify-content-center align-items-center bg-dark title-chat rounded">
+                            <h4>Username Chat</h2>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column messages-container">
+                        <div class="d-flex flex-column-reverse messages pre-scrollable">
+                            <div class="row align-items-baseline bg-dark message" style="width: 6rem">
+                                <h5>Jose</h5>
+                                <p>&nbsp; : &nbsp;</p>
+                                <p>Mensaje largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo,largo, largo, largo, largo, largo, largo, largo, largo, largo,</p>
+                            </div>
+                            <div class="row align-items-baseline bg-light message-self" style="width: 6rem">
+                                    <h5>Yo</h5>
+                                    <p>&nbsp; : &nbsp;</p>
+                                    <p>Mensaje largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo,largo, largo, largo, largo, largo, largo, largo, largo, largo,</p>
+                            </div>
+                            <div class="row align-items-baseline bg-dark message" style="width: 6rem">
+                                    <h5>Jose</h5>
+                                    <p>&nbsp; : &nbsp;</p>
+                                    <p>Mensaje largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo,largo, largo, largo, largo, largo, largo, largo, largo, largo,</p>
+                            </div>
+                            <div class="row align-items-baseline bg-light message-self" style="width: 6rem">
+                                    <h5>Yo</h5>
+                                    <p>&nbsp; : &nbsp;</p>
+                                    <p>Mensaje largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo,largo, largo, largo, largo, largo, largo, largo, largo, largo,</p>
+                            </div>
+                            <div class="row align-items-baseline bg-dark message" style="width: 6rem">
+                                <h5>Jose</h5>
+                                <p>&nbsp; : &nbsp;</p>
+                                <p>Mensaje largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo,largo, largo, largo, largo, largo, largo, largo, largo, largo,</p>
+                            </div>
+                            <div class="row align-items-baseline bg-light message-self" style="width: 6rem">
+                                    <h5>Yo</h5>
+                                    <p>&nbsp; : &nbsp;</p>
+                                    <p>Mensaje largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo, largo,largo, largo, largo, largo, largo, largo, largo, largo, largo,</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column input-message-container">
+                        <div class="d-flex flex-column">
+                            <form action="" class="post form-add-message">
+                                <div class="input-group input-group-lg">    
+                                    <input type="text" placeholder="Escribe un mensaje" class="form-control" id="inptAddMessage">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                </div>
+                            </form>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+
+    </div>
+
+</body>
+</html>

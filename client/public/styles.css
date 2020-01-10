@@ -1,0 +1,58 @@
+.chat-container{
+    min-height: 600px !important;
+    max-height: 1000px !important;
+    padding-top: 20px; 
+    padding-bottom: 20px;
+}
+
+.user-chat{
+    word-wrap: break-word;
+}
+.user-chat-selected{
+    word-wrap: break-word;
+}
+
+.add-friend-container{
+    min-height: 60px;
+    max-height: 60px;
+    margin: 10px;
+}
+
+.title-chat-container{
+    min-height: 80px;
+    max-height: 100px;
+    margin: 10px;
+}
+
+.messages-container{
+    min-height: 500px;
+    max-height: 800px;
+}
+
+.messages{
+    max-height: 550px !important;
+    padding: 2px;
+}
+
+
+.message{
+    width: auto !important;
+    word-wrap: break-word;
+    margin: 5px 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.message-self{
+    width: auto !important;
+    word-wrap: break-word;
+    margin: 5px 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.input-message-container{
+    min-height: 80px;
+    max-height: 100px;
+}
